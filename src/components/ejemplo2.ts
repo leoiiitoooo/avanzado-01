@@ -1,0 +1,1 @@
+const calcularPromedio (numero: number[]):number
