@@ -4,9 +4,8 @@ type Persona ={
     edad: number;
     cedula: string;
     telefonos?: string[]; //lista opcional
-    familia: Persona[
            
-    ]
+    
 }
 
 const familia : Persona[] =[{

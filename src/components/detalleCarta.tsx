@@ -18,8 +18,8 @@ function detalleCarta({
     tipo,
 }: Props)  {
     return (
-        <div>
-        <h3>
+        <div className="flex flex-col items-center">
+        <h3 className="bg-green-500">
         {nombre} (#{numero})
         </h3>
         <img src={imagen} alt={nombre}/>
