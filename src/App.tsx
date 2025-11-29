@@ -1,6 +1,10 @@
+import { useState } from "react"
 import Contacto from "./components/contactos"
+
 function App() {
-    return (
+   const[mostrarModal, setMostrarModal]=useState(false);
+   
+   return (
 
       <div className = "flex flex-cold border-10">
    <Contacto 
